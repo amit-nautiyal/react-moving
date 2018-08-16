@@ -2,7 +2,7 @@
   "name": "moving",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://amit-nautiyal.github.io/moving/",
+  "homepage": "http://amit-nautiyal.github.io/react-moving/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.2",

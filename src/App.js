@@ -15,7 +15,6 @@ class App extends Component {
   }
 
   _onMouseMove(e) {
-    var element = document.getElementById('frame');
     this.setState({ x: e.clientX, y: e.clientY });
   }
 
@@ -41,7 +40,6 @@ class App extends Component {
     return DefaultImage
   }
   render() {
-    const { x, y } = this.state;
     const getImage = this.getImage()
     return (
       <div id="frame" className="App" onMouseMove={this._onMouseMove.bind(this)}>
