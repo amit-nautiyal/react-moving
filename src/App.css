@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  position: relative;
+}
+
+#image {
+  height: 220px;
+  width: 220px;
+  align-self: center;
+}
+
+.mouse {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
